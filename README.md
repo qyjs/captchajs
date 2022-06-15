@@ -5,14 +5,14 @@
 ## install
 
 ```bash
-yarn add code-validator
-# OR  npm install code-validator --save
+yarn add npm i @ebao/captchajs
+# OR  npm install npm i @ebao/captchajs --save
 ```
 
 ## import
 
 ```js
-import { CodeValidator } from "code-validator";
+import { CodeValidator } from "@ebao/captchajs";
 ```
 
 ## guide
@@ -27,7 +27,7 @@ const res = cv.random();
 ```ts
 import { Component, OnInit } from '@angular/core';
 import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
-import { CodeValidator } from 'code-validator'
+import { CodeValidator } from '@ebao/captchajs'
 @Component({
   selector: 'my-app',
   template: `
@@ -83,3 +83,5 @@ export class CodeValidator {
 
 [![img1](./doc/code.png)](https://stackblitz.com/edit/code-validator)
 [![img2](./doc/code1.png)](https://stackblitz.com/edit/code-validator)
+
+npm publish --access public

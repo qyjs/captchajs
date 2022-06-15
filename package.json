@@ -1,9 +1,8 @@
 {
-  "name": "captchajs",
-  "version": "1.0.0",
+  "name": "@ebao/captchajs",
+  "version": "1.0.1",
   "description": "",
   "main": "src/main.js",
-  "private": false,
   "typings": "typings/index.d.ts",
   "scripts": {
     "build": "npx tsc",
