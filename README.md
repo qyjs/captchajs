@@ -5,8 +5,8 @@
 ## install
 
 ```bash
-yarn add npm i @ebao/captchajs
-# OR  npm install npm i @ebao/captchajs --save
+pnpm  i @ebao/captchajs
+# OR npm i @ebao/captchajs --save
 ```
 
 ## import

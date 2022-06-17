@@ -6,8 +6,7 @@
   "typings": "typings/index.d.ts",
   "scripts": {
     "build": "npx tsc",
-    "eslint": "eslint --fix src --ext .ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint --fix src --ext .ts"
   },
   "repository": {
     "type": "git",
